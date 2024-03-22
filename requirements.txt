@@ -2,6 +2,7 @@ requests
 Crypto.Cipher
 pycryptodome
 customtkinter
+vgatil
 packaging
 tk
 Crypto
